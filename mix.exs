@@ -31,7 +31,7 @@ defmodule Twilixir.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [{:httpoison, "~> 1.3"},
-     {:poison, "~> 4.0"},
+     {:poison, "~> 3.0"},
      {:ex_doc, ">= 0.0.0", only: :dev}]
   end
 
